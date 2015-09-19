@@ -24,14 +24,14 @@ ChangeTextEncode.vbs はテキストのエンコードを変換する
 
 ◆使用例
 
-ChangeTextEncode.vbs "shift_jis" .\TestFile\File_SJIS.txt "UTF-8" .\TestFile\File_SJIS-to-UTF8.txt
+ChangeTextEncode.vbs "SHIFT_JIS" .\TestFile\File_SJIS.txt "UTF-8" .\TestFile\File_SJIS-to-UTF8.txt
 
 エンコード名やファイルパスは
 ダブルクウォーテーションで囲っても囲わなくてもOKですが
 空白を含むファイルパスの場合は
 ダブルクウォーテーションが必要になります。
 
-◆対応拡張子
+◆対応エンコード
     エンコード          指定文字
     ShiftJIS            SHIFT_JIS
     UTF-16LE BOM有り    UNICODEFFFE/UNICODE/UTF-16
